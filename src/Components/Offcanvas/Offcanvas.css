@@ -1,0 +1,61 @@
+@import url('../Assets/fontawesome-free-6.4.2-web/css/all.css');
+.canvas {
+    height: 100vh;
+    background-color: rgb(53, 53, 245);
+    width: 15vw;
+    padding: 0 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+.false.canvas {
+    height: 100vh;
+    background-color: rgb(97, 97, 252);
+    width: 14vw;
+    padding: 0 20px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: 0.5s;
+}
+.ul_tag {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0.8;
+    border-bottom: 1px solid #bdb9b9;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.ul_tag .ABC {
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.lg {
+    color:rgb(168, 168, 245);
+    font-size: 16px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.btn-primary {
+    display: flex;
+    margin-top: 20px;
+}
+.btn {
+    border: none;
+    background-color: rgb(96, 96, 247);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    border-radius: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 18px;
+}
